@@ -10,8 +10,18 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.9.1')
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.10.0'
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'org.seleniumhq.selenium:selenium-java:4.10.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.5.1'
+
+    testImplementation 'io.rest-assured:rest-assured:5.3.1'
+
 }
 
 test {
