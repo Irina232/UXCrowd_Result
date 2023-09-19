@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91803696-6c97-42b6-ae05-2831c7b49d95" name="Changes" comment="">
+    <list default="true" id="91803696-6c97-42b6-ae05-2831c7b49d95" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/UITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/Specifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/Specifications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/VersionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/VersionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/Versions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/Versions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Irina/selenium-java-4.10.0/selenium-support-4.10.0.jar",
-    "onboarding.tips.debug.path": "C:/Users/Irina/IdeaProjects/UXCrowd_Result/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Irina/selenium-java-4.10.0/selenium-support-4.10.0.jar&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Irina/IdeaProjects/UXCrowd_Result/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.VersionTest.getAllVersions">
+}</component>
+  <component name="RunManager" selected="Gradle.UITest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI.Main" />
       <module name="UXCrowd_Result.test" />
@@ -88,6 +87,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="UITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ui.UITest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
     </configuration>
     <configuration name="VersionTest.getAllTariffs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -139,9 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UITest" />
+        <item itemvalue="Application.MainUI" />
         <item itemvalue="Gradle.VersionTest.getAllVersions" />
         <item itemvalue="Gradle.VersionTest.getAllTariffs" />
-        <item itemvalue="Application.MainUI" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -155,7 +179,19 @@
       <option name="presentableId" value="Default" />
       <updated>1694869749120</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final">
+      <created>1694903813834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694903813835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

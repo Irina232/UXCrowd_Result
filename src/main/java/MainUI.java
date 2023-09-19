@@ -1,3 +1,9 @@
+// 1. Открываем сайт https://dev-t.uxcrowd.ru
+// 2. Кликаем на иконку чата
+// 3. Не заполняя поля ввода, кликаем на кнопку "Отправить"
+// 4. Кликаем по кнопке "Закрыть" окна предупреждения об обязательных полях
+// 5. Проверяем цвет границы подсветки незаполненных обязательных полей
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
+
 
 public class MainUI {
     public static void main(String[] args) {
@@ -41,10 +48,11 @@ public class MainUI {
         if (par.equals("rgb(255, 53, 128)")) {
                 System.out.println("Passed");
         } else {
-                System.out.println("Failed");
-
-            driver.quit();
+            System.out.println("Failed");
         }
+
+        driver.quit();
+
     }
 }
 
